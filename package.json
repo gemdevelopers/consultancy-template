@@ -1,0 +1,28 @@
+{
+  "name": "consultancy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.mix.js",
+  "scripts": {
+    "watch": "mix watch",
+    "dev": "npm run development",
+    "development": "mix",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production"
+  },
+  "keywords": [],
+  "author": "Gem Dev",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "10.4.5"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "laravel-mix": "^6.0.43",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.52.1",
+    "sass-loader": "^12.6.0"
+  }
+}
