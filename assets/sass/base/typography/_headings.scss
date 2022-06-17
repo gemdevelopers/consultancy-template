@@ -11,5 +11,14 @@ h1 {
 	font-style: normal;
 	font-weight: 600;
 	letter-spacing: 0.03em;
-	text-transform: uppercase;
+}
+h2 {
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 47px;
+}
+.about_content {
+	h2 {
+		color: #F1EC40;
+	}
 }
