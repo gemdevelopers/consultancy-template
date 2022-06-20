@@ -4,12 +4,28 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Work Sans';
+	font-family: 'Work Sans', sans-serif;
 	color: $black__color;
 }
 h1 {
 	font-style: normal;
 	font-weight: 600;
 	letter-spacing: 0.03em;
-	text-transform: uppercase;
+}
+h2 {
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 47px;
+}
+.about_content {
+	h2 {
+		color: #F1EC40;
+	}
+}
+h4 {
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 26px;
+	line-height: 30px;
 }

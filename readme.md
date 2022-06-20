@@ -3,8 +3,7 @@
 
 
 <!-- Asset Compilation -->
-<!-- 
-1. open your command line terminal form root folder
+open your command line terminal form root folder
 type : npm install 
 
 After install all the packages 
@@ -20,4 +19,3 @@ run a command i.e -> npm run dev
 
 For Production Mode
 run a command i.e -> npm run prod
--->

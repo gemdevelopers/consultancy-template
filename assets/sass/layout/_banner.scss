@@ -1,0 +1,32 @@
+.banner-cta {
+	width: 100%;
+	background-attachment: scroll;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: $white__color;
+}
+
+.cta_wrap {
+	max-width: 1200px;
+	margin: 115px auto;
+}
+.content h1 {
+	font-family: 'Work Sans', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 70px;
+	letter-spacing: 0.02em;
+	color: $white__color;
+}
+.content p {
+	width: 418px;
+	height: 60px;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 30px;
+	color: $white__color;	
+}
