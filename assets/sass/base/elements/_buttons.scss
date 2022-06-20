@@ -1,8 +1,17 @@
-button {
+.button {
+	display: inline-block;
+	width: 147px;
+	height: 48px;
 	background-color: $botton__background__color;
 	border-radius: 10px;
-	font-style: normal;
-	font-weight: 600;
-	font-size: 1rem;
-	padding: 10px;
+	text-align: center;
+}
+.button {
+	a {
+		font-family: 'Work Sans';
+		font-style: normal;
+		font-weight: 600;
+		font-size: 1rem;
+		line-height: 48px;
+	}
 }
