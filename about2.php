@@ -58,23 +58,24 @@
       <!-- header end -->
     </div>
     <!-- Carousel section  -->
-    <section class="bg-image banner_img img-fluid py-2 my-1 col-lg-12 col-md-12 col-sm-12"
-      style="background-image: url('assets/images/rectangle43.png');">
-      <div class="container">
+    <section>
+      <div class="container img_bak">
         <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12">
-            <h2 class="text-white">We help bring international education dreams to life</h2>
+          <div class="col">
+
+            <!-- <img src="assets/images/rectangle43.png" class="img-fluid" alt=""> -->
+            <h2>We help bring international education dreams to life</h2>
           </div>
         </div>
       </div>
     </section>
     <!--  -------who are we section start ----  -->
-    <section id="about-a" class="text-center py-5">
+    <section>
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-12 text-center my-1">
-            <h2 id="" class="section-title">Who are we </h2>
-            <div class="bottom-line"></div>
+          <div class="col-sm-12 col-md-12 col-lg-12 text-center my-4">
+            <h2 id="">Who are we </h2>
+            <hr class="my-4">
           </div>
         </div>
       </div>
@@ -82,11 +83,11 @@
         <div class="row">
           <!-- -------  -->
           <div class="col-sm-12 col-md-6 col-xl-6 g-4 ">
-            <div class="card">
+            <div class="card text-justify">
               <img src="assets/images/rectangle34.png" class="card-img-top" alt="" />
               <div class="card-body">
-                <h2 class="card-title text-start">Best Consultant </h2>
-                <p class="card-text text-start">
+                <h2 class="card-title">Best Consultant </h2>
+                <p class="card-text">
                   <!-- main_wrapper end -->
                   We are the one stop for the consulting agency.We are the one stop for
                   the consulting agency. The one stop for your consulting solution.We
@@ -97,11 +98,11 @@
           </div>
           <!-- -------  -->
           <div class="col-sm-12 col-md-6 col-xl-6 g-4 ">
-            <div class="card">
-              <img src="assets/images/rectangle35.png" class="card-img-top " alt="" />
+            <div class="card text-justify">
+              <img src="assets/images/rectangle35.png" class="card-img-top" alt="" />
               <div class="card-body">
-                <h2 class="card-title text-start">Preparation classes </h2>
-                <p class="card-text text-start">
+                <h2 class="card-title">Preparation classes </h2>
+                <p class="card-text">
                   <!-- main_wrapper end -->
                   We are the one stop for the consulting agency.We are the one stop for
                   the consulting agency. The one stop for your consulting solution.We
@@ -120,24 +121,23 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-6 col-xl-6 g-4">
-            <h2>Our <span class="text_title">Mission</span></h2>
+            <h2>Our <span>Mission</span>Mission</h2>
             <p>
               Our mission statement is effective because it focuses on its landmark
-              product premier highlights the value it brings to customers.</p>
-              <p>This statement tells customers the product is going to solve their
+              product premier highlights the value it brings to customers. This
+              statement tells customers the product is going to solve their
               problems, because the founders state how they were frustrated by
               unreliable coolers and outdoor accessories.
             </p>
           </div>
 
           <div class="col-sm-12 col-md-6 col-xl-6 g-4">
-            <h2>Our <span class="text_title">Vision</span></h2>
+            <h2>Our <span>Vision</span></h2>
             <p>
               Our vision statement is effective because it focuses on its landmark
               product premier highlights the value it brings to customers. This
               statement tells customers the product is going to solve their
-              problems. </p>
-              <p>Because the founders state how they were frustrated by
+              problems. Because the founders state how they were frustrated by
               unreliable coolers and outdoor accessories.
             </p>
           </div>
@@ -147,14 +147,14 @@
     <!---------- our mission  section end  -->
 
 
-    <section class="bg_color">
+    <section>
       <div class="container">
         <div class="row">
           <h2>Suscribe to our newsletter</h2>
-          <h5>
+          <h3>
             For the new offers and latest updates, please suscribe to our
             newsletter.
-          </h5>
+          </h3>
         </div>
         <div class="container">
           <form action="">
@@ -167,85 +167,6 @@
         </div>
       </div>
     </section>
-    <footer>
-			<div class="container">
-				<div class="row">
-					<div class="footer-col">
-						<figure>
-							<img src="assets/images/footer-logo.svg" alt="">
-						</figure>
-						<h4>Follow us on</h4>
-						<div class="social-media-icon">
-							<a href="#" class="media-icons" target="_blank">
-								<i class="fa fa-facebook-official" aria-hidden="true"></i>
-							</a>
-							<a href="#" class="media-icons" target="_blank">
-								<i class="fa fa-instagram" aria-hidden="true"></i>
-							</a>
-							<a href="#" class="media-icons" target="_blank">
-								<i class="fa fa-twitter-square" aria-hidden="true"></i>
-							</a>
-							<a href="#" class="media-icons" target="_blank">
-								<i class="fa fa-linkedin-square" aria-hidden="true"></i>
-							</a>
-						</div>
-					</div>
-					<div class="footer-col">
-						<h4>Services</h4>
-						<div class="widget">
-							<ul>
-								<li><a href="#">GRE</a></li>
-								<li><a href="#">TOEFL</a></li>
-								<li><a href="#">PTE</a></li>
-								<li><a href="#">IELTS</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="footer-col">
-						<h4>Follow us on</h4>
-						<div class="widget">
-							<ul>
-								<li><a href="">Study in USA</a></li>
-								<li><a href="">Study in UK</a></li>
-								<li><a href="">Study in Canada</a></li>
-								<li><a href="">Study in Australia</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="footer-col">
-						<h4>Follow us on</h4>
-						<div class="widget">
-							<ul>
-								<li>
-									<a href="#">
-										<span>
-											<i class="fa fa-phone" aria-hidden="true"></i>
-										</span>
-										+977 123456789
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<span>
-											<i class="fa fa-map-marker" aria-hidden="true"></i>
-										</span>
-										New Baneshwor, Kathmandu
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<span>
-											<i class="fa fa-envelope-o" aria-hidden="true"></i>
-										</span>
-										abc@gmail.com
-									</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
       integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
       crossorigin="anonymous"></script>
