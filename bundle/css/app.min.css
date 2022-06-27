@@ -84,7 +84,7 @@ a {
 }
 
 hr {
-  margin: 45px 0px;
+  margin: 45px 1px;
 }
 
 ul {
@@ -253,6 +253,33 @@ div.testimonial-bg {
 
 .blog-img {
   width: 335px;
+}
+
+img {
+  width: 100%;
+}
+
+.bottom-line {
+  height: 3px;
+  width: 3rem;
+  background: #f1ec40;
+  margin: 1rem 39rem 1rem auto;
+}
+
+.banner_img {
+  background-repeat: no-repeat;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text_title {
+  color: #f1ec40;
+}
+
+.bg_color {
+  background-color: #fffedd;
 }
 
 /*--------------------------------------------------------------
