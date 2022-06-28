@@ -2,16 +2,6 @@ footer {
 	background: #F1EC40;
 	padding: 70px 0;
 }
-.footer-col {
-	width: 25%;
-	padding: 0 15px;
-}
-.footer-col {
-	ul {
-		li:not(:last-child) {
-			margin-bottom: 10px;
-			color: $black__color;
-			font-weight: 500;
-		}
-	}
+.footer-widget {
+	flex-basis: 25%;
 }

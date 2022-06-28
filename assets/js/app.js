@@ -11,6 +11,7 @@
          this.owlCarouselBrand();       
          this.owlCarouselTestimonial();
          this.owlCarouselBlog();       
+         this.search_button_overlay();       
       },
       ie: function () {
          try {
@@ -35,10 +36,13 @@
               0:{
                items:1
             },
-            600:{
-               items:1
+            758: {
+               items:2
             },
-            1000:{
+            992:{
+               items:3
+            },
+            1200:{
                items:4
             }
          }
@@ -53,12 +57,15 @@
             dots: false,
             responsive:{
               0:{
-               items:1
+               items:2
             },
-            600:{
+            768: {
                items:3
             },
-            1000:{
+            992:{
+               items:3
+            },
+            1200:{
                items:5
             }
          }
@@ -75,10 +82,13 @@
              0:{
                items:1
             },
-            600:{
+            768: {
                items:2
             },
-            1000:{
+            992:{
+               items:2
+            },
+            1200:{
                items:3
             }
          }
@@ -95,14 +105,25 @@
              0:{
                items:1
             },
-            600:{
+            768:{
                items:2
             },
-            1000:{
+            992:{
+               items:2
+            },
+            1200:{
                items:3
             }
          }
       });         
+      },
+      search_button_overlay: function () {
+         jQuery('#search-btn').click(function(e) {
+            jQuery('#my-overlay').css('display','inline-block');
+         });
+         jQuery('.close-btn').click(function(e) {
+            jQuery('#my-overlay').css('display','none');
+         });
       }
    };
    $(function () {
