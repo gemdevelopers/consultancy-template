@@ -263,11 +263,15 @@ img {
   height: 3px;
   width: 3rem;
   background: #f1ec40;
-  margin: 1rem 39rem 1rem auto;
+  display: block;
+  margin: 0 auto 1rem auto;
 }
 
 .banner_img {
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
   height: 50vh;
   display: flex;
   justify-content: center;
@@ -279,7 +283,18 @@ img {
 }
 
 .bg_color {
-  background-color: #fffedd;
+  background-color: #eea5ab;
+}
+
+hr.new1 {
+  border: 2px solid #ded70e;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.img_vector {
+  height: 5rem;
+  width: 8rem;
 }
 
 /*--------------------------------------------------------------
