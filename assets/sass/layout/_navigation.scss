@@ -1,0 +1,20 @@
+.overlay {
+	display: none;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,0.7);
+}
+.over-content {
+	top: 50%;
+}
+.close-btn {
+	top: 20px;
+	right: 45px;
+	cursor: pointer;
+	color: $white__color
+}
+.navbar-light .navbar-toggler {
+	color: $black__color;
+}
