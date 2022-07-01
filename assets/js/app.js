@@ -120,9 +120,13 @@
       search_button_overlay: function () {
          jQuery('#search-btn').click(function(e) {
             jQuery('#my-overlay').css('display','inline-block');
+            jQuery('#search-btn').css('display','none');
+            jQuery('#nav-toggle').css('display','none');
          });
          jQuery('.close-btn').click(function(e) {
             jQuery('#my-overlay').css('display','none');
+            jQuery('#search-btn').css('display','inline-block');
+            jQuery('#nav-toggle').css('display','inline-block');
          });
       }
    };

@@ -20,7 +20,7 @@
 						<a href="#" id="search-btn">
 							<i class="fa fa-search fs-3" aria-hidden="true"></i>
 						</a>
-					<button class="border-0 navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<button class="border-0 navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="nav-toggle">
 						<span class="navbar-toggler-icon"></span>
 					</button>
 				</div>
@@ -58,16 +58,14 @@
 		<!-- header end -->
 
 		<!-- overlay -->
-		<div id="my-overlay" class="w-100 h-100 position-fixed overlay">
-			<span class="position-absolute fs-1 close-btn">
+		<div id="my-overlay" class="w-100 h-100 position-fixed pe-auto overlay">
+			<span class="position-absolute close-btn">
 				&#215
 			</span>
-			<div class="position-relative text-center w-50 m-auto over-content">
-				<form action="">
-				<input type="text" placeholder="Search..." name="s" />
-				<button type="submit">
-				</button>
-			</form>
+			<div class="w-100 d-flex justify-content-center align-items-center pt-3 field-group">
+				<form action="#" method="GET">
+					<input type="text" name="s" id="name" class="w-100 fs-1 bg-transparent input-field" placeholder="Search..." />
+				</form>
 			</div>
 		</div>
 		<!-- end overlay -->

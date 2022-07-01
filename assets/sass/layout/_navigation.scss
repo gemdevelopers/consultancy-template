@@ -10,10 +10,31 @@
 	top: 50%;
 }
 .close-btn {
-	top: 20px;
-	right: 45px;
-	cursor: pointer;
-	color: $white__color
+	top: -25px;
+	right: 60px;
+	color: $white__color;
+	font-size: 6rem;
+}
+
+.field-group {
+	min-height: 100vh;
+	background: rgb(0 0 0 / 66%);
+}
+.input-field {
+	outline: 0;
+	border: 0;
+	border-bottom: 2px solid $botton__background__color;
+	color: $white__color;
+
+}
+.input-field::placeholder {
+	text-align: center;
+	color: $white__color;
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 29px;
+	line-height: 34px;
 }
 .navbar-light .navbar-toggler {
 	color: $black__color;
