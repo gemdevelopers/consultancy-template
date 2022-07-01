@@ -1,0 +1,35 @@
+.bottom-line {
+  height: 0.4rem;
+  width: 0.5rem;
+  background: #f1ec40;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+.banner_img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text_title {
+  color: #f1ec40;
+}
+
+.bg_color {
+  background-color: #eea5ab;
+}
+hr.new1 {
+  border: 0.5rem solid #ded70e;
+
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.img_vector {
+  height: 5rem;
+  width: 8rem;
+}
