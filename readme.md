@@ -1,6 +1,6 @@
 <h1>Consultancy Template</h1>
 <p>This is a private repo of consultancy template</p>
-<a href="https://gemdevelopers.github.io/consultancy-template/">Demo :</a>
+<a href="https://gemdevelopers.github.io/consultancy-template/">https://gemdevelopers.github.io/consultancy-template/</a>
 
 
 <!-- Asset Compilation -->
